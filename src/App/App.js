@@ -12,14 +12,14 @@ import Header from '../Components/Header/Header';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <main id="App">
         <Route exact path={'/'} component={Landing} />
         <Route path={'/app'} component={Header} />
         <Route exact path={'/app'} component={Registration} />
         <Route exact path={'/app/login'} component={Login} />
         <Route exact path={'/app/trivia'} component={Trivia} />
         <Route exact path={'/app/leaderboard'} component={Leaderboard} />
-      </div>
+      </main>
     );
   }
 }

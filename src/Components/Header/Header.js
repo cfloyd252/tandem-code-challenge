@@ -6,9 +6,9 @@ export class Header extends Component {
   render() {
     return (
       <section id='header'>
-        <Link to='/app/trivia'>Tandem Trivia</Link>
-        <Link to='/app/leaderboard'>Leaderboard</Link>
-        <Link to='/app/login'>Sign In</Link>
+        <Link className='headerLink' id='homeLink' to='/app/trivia'>Tandem Trivia</Link>
+        <Link className='headerLink' id='leaderbaordLink' to='/app/leaderboard'>Leaderboard</Link>
+        <Link className='headerLink' id='loginLink' to='/app/login'>Sign In</Link>
       </section >
     )
   }
