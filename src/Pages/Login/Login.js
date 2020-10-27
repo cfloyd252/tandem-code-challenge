@@ -3,13 +3,13 @@ import React, { Component } from 'react'
 export class Login extends Component {
   render() {
     return (
-      <div>
-        <label htmlFor='username'>Username</label>
-        <input id='username' type='text'></input>
-        <label htmlFor='password'>Password</label>
-        <input id='password' type='password'></input>
+      <form>
+        <label htmlFor='username' className='hidden'>Username</label>
+        <input id='username' type='text' placeholder='Username'/>
+        <label htmlFor='password' className='hidden'>Password</label>
+        <input id='password' type='password' placeholder='Password'/>
         <button>Submit</button>
-      </div>
+      </form>
     )
   }
 }
