@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 export class Trivia extends Component {
   render() {
     return (
-      <div>
+      <section id='trivia'>
         <h1>Trivia</h1>
-      </div>
+      </section>
     )
   }
 }

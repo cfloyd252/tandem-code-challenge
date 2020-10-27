@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class Login extends Component {
   render() {
     return (
-      <form>
+      <form id='loginForm'>
         <label htmlFor='username' className='hidden'>Username</label>
         <input id='username' type='text' placeholder='Username'/>
         <label htmlFor='password' className='hidden'>Password</label>

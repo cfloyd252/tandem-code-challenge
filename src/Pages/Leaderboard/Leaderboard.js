@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 export class Leaderboard extends Component {
   render() {
     return (
-      <div>
+      <section id='leaderboard'>
         <h1>Leader Board</h1>
-      </div>
+      </section>
     )
   }
 }
