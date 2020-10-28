@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 
 function Registration() {
-  const [username, setUsername] = useState('')
+  const [firstName, setFirstName] = useState('');
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
 
   return (
     <form id='registrationForm'>
