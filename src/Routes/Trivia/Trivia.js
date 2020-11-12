@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React, { useState, useEffect } from 'react';
+import TriviaApp from '../../Components/TriviaApp/TriviaApp'
 
-export class Trivia extends Component {
-  render() {
-    return (
-      <section id='trivia'>
-        <h1>Trivia</h1>
-      </section>
-    )
-  }
+function Trivia(props) {
+  // useEffect()
+  return (
+    <section id='trivia'>
+      <TriviaApp />
+    </section>
+  )
 }
 
 export default Trivia
