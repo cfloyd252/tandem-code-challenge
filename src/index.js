@@ -10,9 +10,9 @@ import './index.css';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      {/* <AppProvider> */}
+      <AppProvider>
         <App />
-      {/* </AppProvider> */}
+      </AppProvider>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

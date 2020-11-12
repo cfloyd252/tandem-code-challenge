@@ -2,12 +2,12 @@ import React, { useState, useContext } from 'react'
 import AppContext from '../../Context/AppContext'
 
 function TriviaApp (props) {
-  const AppContext = useContext(AppContext)
-  const [view, setView] = useState('start');
+  const AppStore = useContext(AppContext)
+  // const [view, setView] = useState('start');
   // const [questionIndex, setQuestionIndex] = useState(0);
   // const [score, setScore] = useState(0);
 
-  switch (view) {
+  switch (AppStore.view) {
     case 'start':
       return (
         <div>

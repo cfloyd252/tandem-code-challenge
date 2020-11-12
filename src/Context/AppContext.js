@@ -26,7 +26,7 @@ export class AppProvider extends Component {
 
     return (
       <AppContext.Provider value={value}>
-        
+        {this.props.children}
       </AppContext.Provider>
     )
   }
