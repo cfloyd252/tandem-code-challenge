@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 
 const AppContext = React.createContext({
   state: {},
-  view: 'start'
+  view: 'start',
+  setQuestions: () => {},
 })
 
 
